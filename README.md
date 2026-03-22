@@ -18,7 +18,7 @@ Welcome! This repository tracks my progress in mastering Data Structures and Alg
 ### 📈 Solved Problems
 | Problem Name | Topic | Difficulty | Solution |
 | :--- | :--- | :--- | :--- |
-| Two Sum | Arrays / Hashmap | Easy | [View Code](./Leetcode/twosum.java) |
+| Two Sum | Arrays| Easy | [View Code](./Leetcode/twosum.java) |
 | Reverse Integer | Math | Medium | [View Code](./Leetcode/reverseinteger.java) |
 | Palindrome Number | Math | Easy | [View Code](./Leetcode/palindromenumber.java) |
 | Valid Palindrome | String | Easy | [View Code](./Leetcode/vaildpalindrome.java) |
