@@ -23,14 +23,6 @@ Welcome! This repository tracks my progress in mastering Data Structures and Alg
 | Palindrome Number | Math | Easy | [View Code](./Leetcode/palindromenumber.java) |
 | Valid Palindrome | String | Easy | [View Code](./Leetcode/vaildpalindrome.java) |
 | Reverse String Prefix | String | Easy | [View Code](./Leetcode/reversestringprefix.java) |
-
----
-
-### 🛠️ Tech Stack & Goals
-- **Language:** Java
-- **Current Goal:** Mastering Analysis of Algorithms for my 4th Sem exams and targeting 10 LPA+ roles.
-- **Experience:** Mentee at GSSoC & Contributor at SWoC.
-
 ---
 
 ### 📫 Let's Connect!
