@@ -1,39 +1,39 @@
 # ⚡ DSA-Solutions-Java  
-> "Turning coffee into optimized code, one algorithm at a time."
+> **My Journey to  Master Algorithms & Data Structures**
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black)
-![OpenSource](https://img.shields.io/badge/GSSoC_/_SWoC-Contributor-green?style=for-the-badge)
+![Data_Structures](https://img.shields.io/badge/Data_Structures-007ACC?style=for-the-badge&logo=databricks&logoColor=white)
 
-Welcome! This repository tracks my progress in mastering Data Structures and Algorithms. I'm focusing on writing clean, readable, and efficient Java code.
-
----
-
-### 📂 Repository Overview
-* **[Leetcode](./Leetcode):** Direct solutions to competitive programming problems.
-* **[Mathematical Algorithms](./mathematicalalgorithm):** Core logic and number theory problems.
+This repository isn't just code—it's a structured roadmap of my technical growth. From basic arrays to complex dynamic programming, I document every pattern I learn.
 
 ---
 
-### 📈 Solved Problems
-| Problem Name | Topic | Difficulty | Solution |
-| :--- | :--- | :--- | :--- |
-| Two Sum | Arrays| Easy | [View Code](./Leetcode/twosum.java) |
-| Reverse Integer | Math | Medium | [View Code](./Leetcode/reverseinteger.java) |
-| Palindrome Number | Math | Easy | [View Code](./Leetcode/palindromenumber.java) |
-| Valid Palindrome | String | Easy | [View Code](./Leetcode/vaildpalindrome.java) |
-| Reverse String Prefix | String | Easy | [View Code](./Leetcode/reversestringprefix.java) |
----
+### 📚 Learning Roadmap & Patterns
+I focus on **Patterns**, not just problems. Here is what I am currently mastering:
 
-### 📫 Let's Connect!
-Feel free to reach out for feedback or collaboration!
-
-<a href="mailto:amulyar122006@gmail.com">
-  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
-<a href="https://github.com/amulyarstar">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-</a>
+| Pattern | Logic / Intuition | Problems Solved |
+| :--- | :--- | :--- |
+| **Two Pointers** | Reducing $O(n^2)$ to $O(n)$ using two indices. | [Two Sum](./Leetcode/twosum.java), [Valid Palindrome](./Leetcode/vaildpalindrome.java) |
+| **Prefix Logic** | Precomputing values for $O(1)$ range queries. | [Reverse Prefix](./Leetcode/reversestringprefix.java) |
+| **Math & Logic** | Handling overflows and number theory. | [Reverse Integer](./Leetcode/reverseinteger.java), [Palindrome Number](./Leetcode/palindromenumber.java) |
 
 ---
-*Checked out my code? Drop a ⭐ if you found it helpful!*
+
+### ⏱️ Complexity Cheat Sheet (Java)
+*Quick reference for my 4th Sem "Analysis of Algorithms" Prep:*
+
+| Data Structure | Access | Search | Insertion | Deletion |
+| :--- | :--- | :--- | :--- | :--- |
+| **Array** | $O(1)$ | $O(n)$ | $O(n)$ | $O(n)$ |
+| **ArrayList** | $O(1)$ | $O(n)$ | $O(1)$* | $O(n)$ |
+| **HashMap** | $N/A$ | $O(1)$ | $O(1)$ | $O(1)$ |
+
+---
+
+### 🛠️ How to Use This Repo
+1. **Browse by Folder:** Check the [Leetcode](./Leetcode) folder for specific problem types.
+2. **Review Complexity:** Every solution includes a `// Time & Space Complexity` comment at the top.
+3. **Run Locally:** ```bash
+   javac Leetcode/twosum.java
+   java Leetcode.twosum
